@@ -1,0 +1,13 @@
+[package]
+name = "eth-address-miner"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+secp256k1 = {version = "0.22.1", features = ["rand"]}
+rand = {version = "0.6", features = ["std"]}
+rust-crypto = "0.2"
+num_cpus = "1.13.1"
+
+[profile.release]
+lto = true
