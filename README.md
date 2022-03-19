@@ -25,5 +25,5 @@ address: 0xdeadbf7074caf261d039580e18bf7dfdddad43d8
 ```
 cargo build --release
 cd target/release
-./eth-address-miner b00b
+./eth-address-miner deadb
 ```
